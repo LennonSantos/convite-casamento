@@ -1,12 +1,69 @@
 <template>
   <section class="section">
-    <div class="columns is-mobile">
-      <div class="column is-6 has-background-black">
-        oi
+    <h2 class="title is-6 has-text-centered">Fulano, que bom ter você nesse momento tão especial para nós <i class="far fa-heart"></i></h2>
+    <div class="columns">
+      <div class="column is-5">
+        <figure class="image">
+          <img src="https://cdn.quasar.dev/img/parallax2.jpg">
+        </figure>
       </div>
+      <div class="column is-7">
+        <div class="columns">
+          <div class="column is-6">
+            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+              <span class="icon">
+                <i class="fas fa-envelope-open-text"></i>
+              </span>
+              <span>Convite</span>
+            </button>
+          </div>
+          <div class="column is-6">
+            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+              <span class="icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </span>
+              <span>Local da festa</span>
+            </button>
+          </div>
+        </div>
 
-      <div class="column is-6 has-background-link">
-        oi
+        <div class="columns">
+          <div class="column is-6">
+            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+              <span class="icon">
+                <i class="fas fa-gift"></i>
+              </span>
+              <span>Lista de presentes</span>
+            </button>
+          </div>
+          <div class="column is-6">
+            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+              <span class="icon">
+                <i class="fas fa-images"></i>
+              </span>
+              <span>Fotos</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="columns">
+          <div class="column is-6">
+            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+              <span class="icon">
+                <i class="fas fa-comments"></i>
+              </span>
+              <span>Mensagem para o casal</span>
+            </button>
+          </div>
+          <div class="column is-6">
+            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+              <span class="icon">
+                <i class="fas fa-user-tie"></i>
+              </span>
+              <span>Gravata</span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   </section>
