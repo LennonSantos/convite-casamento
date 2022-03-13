@@ -10,12 +10,15 @@
       <div class="column is-7">
         <div class="columns">
           <div class="column is-6">
-            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+            <NuxtLink
+              to="/convite"
+              class="button is-fullwidth is-medium is-primary is-light is-rounded"
+            >
               <span class="icon">
                 <i class="fas fa-envelope-open-text"></i>
               </span>
               <span>Convite</span>
-            </button>
+            </NuxtLink>
           </div>
           <div class="column is-6">
             <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
@@ -70,8 +73,14 @@
 </template>
 
 <script>
-
 export default {
   name: 'IndexPage'
 }
 </script>
+
+<style scoped>
+  .image img{
+    box-shadow: 0px 0px 10px #aaa;
+    border-radius: 10px;
+  }
+</style>

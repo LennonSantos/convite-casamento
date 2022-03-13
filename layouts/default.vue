@@ -6,7 +6,7 @@
       aria-label="main navigation"
     >
       <div class="navbar-item">
-        <h1 class="title is-2">Juliane & Lennon</h1>
+        <NuxtLink to="/" class="title is-2">Juliane & Lennon</NuxtLink>
       </div>
     </nav>
 
