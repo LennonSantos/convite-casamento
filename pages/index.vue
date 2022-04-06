@@ -21,12 +21,15 @@
             </NuxtLink>
           </div>
           <div class="column is-6">
-            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+            <NuxtLink
+              to="/local-do-almoco"
+              class="button is-fullwidth is-medium is-primary is-light is-rounded"
+            >
               <span class="icon">
                 <i class="fas fa-map-marker-alt"></i>
               </span>
-              <span>Local da festa</span>
-            </button>
+              <span>Local do Almoço</span>
+            </NuxtLink>
           </div>
         </div>
 
