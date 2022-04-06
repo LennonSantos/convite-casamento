@@ -1,6 +1,6 @@
 <template>
   <section class="section">
-    <h2 class="title is-6 has-text-centered">Fulano, que bom ter você nesse momento tão especial para nós <i class="far fa-heart"></i></h2>
+    <h2 class="title is-6 has-text-centered">Que bom ter você nesse momento tão especial para nós <i class="far fa-heart"></i></h2>
     <div class="columns">
       <div class="column is-5">
         <figure class="image">
@@ -35,12 +35,15 @@
 
         <div class="columns">
           <div class="column is-6">
-            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+            <NuxtLink
+              to="/lista-de-presentes"
+              class="button is-fullwidth is-medium is-primary is-light is-rounded"
+            >
               <span class="icon">
-                <i class="fas fa-gift"></i>
+                <i class="fas fa-map-marker-alt"></i>
               </span>
-              <span>Lista de presentes</span>
-            </button>
+              <span>Lista de Presentes</span>
+            </NuxtLink>
           </div>
           <div class="column is-6">
             <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
