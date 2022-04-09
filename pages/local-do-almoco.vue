@@ -1,17 +1,12 @@
 <template>
   <section class="section">
 
-    <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
-      <ul>
-        <li>
-           <NuxtLink to="/">Início</NuxtLink>
-        </li>
-        <li class="is-active"><a href="#" aria-current="page">Local da Festa</a></li>
-      </ul>
+    <nav>
+     <NuxtLink to="/" class="voltar">Voltar</NuxtLink>
     </nav>
 
     <p>
-      <b>Rancho Pavão Eventos</b> <br> Estrada municipal Nelson Tavares Silva, 3800
+      <b>Rancho Pavão Eventos</b> <br> Estrada Municipal Nelson Tavares Silva, 3800 <br> <b>14 de maio, a partir das 12h00</b>
     </p>
 
     <br>

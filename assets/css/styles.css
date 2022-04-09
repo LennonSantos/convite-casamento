@@ -1,0 +1,13 @@
+.voltar {
+  color: #34495e;
+  padding: 5px 15px;
+  background-color: #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px #ddd;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.section {
+  margin-top: -10px;
+}
