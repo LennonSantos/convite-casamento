@@ -11,8 +11,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'Juliane & Lennon - Convite' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'og:title', content: 'Juliane & Lennon' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:description', content: 'Convite do almoço do casamento do cívil' },
+      { name: 'og:image', content: 'https://firebasestorage.googleapis.com/v0/b/tempero-bahiano.appspot.com/o/convite.jpeg?alt=media&token=616c1add-6a97-47fa-8b4f-f3ea8e375c77' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
