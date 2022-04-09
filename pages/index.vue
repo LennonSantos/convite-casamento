@@ -46,16 +46,19 @@
             </NuxtLink>
           </div>
           <div class="column is-6">
-            <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
+            <NuxtLink
+              to="/fotos-do-casal"
+              class="button is-fullwidth is-medium is-primary is-light is-rounded"
+            >
               <span class="icon">
                 <i class="fas fa-images"></i>
               </span>
               <span>Fotos</span>
-            </button>
+            </NuxtLink>
           </div>
         </div>
 
-        <div class="columns">
+        <!-- <div class="columns">
           <div class="column is-6">
             <button class="button is-fullwidth is-medium is-primary is-light is-rounded">
               <span class="icon">
@@ -72,7 +75,7 @@
               <span>Gravata</span>
             </button>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
