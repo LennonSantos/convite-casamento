@@ -40,7 +40,7 @@
               class="button is-fullwidth is-medium is-primary is-light is-rounded"
             >
               <span class="icon">
-                <i class="fas fa-map-marker-alt"></i>
+                <i class="fas fa-gift"></i>
               </span>
               <span>Lista de Presentes</span>
             </NuxtLink>
